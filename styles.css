@@ -1,8 +1,12 @@
 /*  your css code here. If applicable */
- p span:first-child {
-  color: red;
-}
- p span:last-child {
-  color: red;
-}
+  p::before { 
+  content: "Before Element";
+   
+  color: red;}
+ p::after { 
+  content: "After Element";
+   
+  color: red;}
+
+  
   
