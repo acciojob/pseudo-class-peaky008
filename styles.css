@@ -1,8 +1,6 @@
 /*  your css code here. If applicable */
- span{
-	 font-size:20px;
-	 color:rgb(255, 0, 0);
- }
-p{
-	color:rgb(0, 0, 0);
+div p span{
+	font-size:20px;
+	color:red;
 }
+  
